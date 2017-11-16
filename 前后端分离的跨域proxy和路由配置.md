@@ -5,7 +5,7 @@ grammar_cjkRuby: true
 ---
 
 
-### 初始化
+### 项目初始化
 1.首先是用vue-cli脚手架搭建了一个webpack模板项目
 
 #### 配置proxy
@@ -30,7 +30,7 @@ config/index.js
       }
     }
 ```
-
+#### 配置路由
 ```markdown
 router/index.js
 
@@ -86,3 +86,4 @@ new Vue({
 })
 
 ```
+
