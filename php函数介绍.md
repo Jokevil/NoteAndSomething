@@ -10,13 +10,14 @@ grammar_cjkRuby: true
 1.PHP支持两种数组
 ```markdown
 	$arr1 = Array('one', 'two', 'three');
-	$arr = Array('1'=>'one', '2'=>'two', '3'=>'three');
+	$arr2 = Array('1'=>'one', '2'=>'two', '3'=>'three');
 ```
 2.JS不支持关联数组
 3.对两种数组的编码为
 ```markdown
-	echo json_encode($arr);   // ["one","two","three"]
-	echo json_encode($arr);
+	echo json_encode($arr1);   // ["one","two","three"]
+	echo json_encode($arr2);   //{"1":"one","2":"two","3":"three"} 
+```
 
 
 ### serialize   unserialize
